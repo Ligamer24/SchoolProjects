@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.nav {
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		background-color: rgba(0, 0, 0, 0.5);
+		
+	}
+	
+	.cabecalho {
+		display: flex;
+		flex: rows;
+		margin: 5px;
+		color: white;
+	}
+	
+	.corpo {
+		background-color: lightblue;
+		margin: 50px;
+		border: 1px solid black;
+		
+	}
+	
+	.texto {
+		margin: 50px;
+	}
+	
+	h1 {
+		margin: 50px;
+		text-align: center;
+		font-family: arial;
+		font-size: 60px;
+	}
+	
+	h2 {
+		margin: 50px;
+		text-align: center;
+		font-family: arial;
+		font-size: 40px;
+	}
+	
+	p {
+
+	}
+	
+	body {
+		
+	}
+
+	.option {
+		font-size: 55px;
+		font-family: Arial;
+		color: black;
+		background-color: lightblue;
+		margin: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		border-collapse: collapse;
+	}
+
+	th {
+		vertical-align: middle;
+		padding: 50px;
+		border: 1px solid black;
+		border-collapse: collapse;
+		background-color: rgba(57, 255, 143, 0.5);
+	}
+
+	td {
+		height: 512px;
+		width: 50%;
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+
+	.susText {
+		background-image: url("sustentabilidade.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 75%;
+		color: white;
+	}
+
+	.dHText {
+		background-image: url("direitosHumanos.png");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 75%;
+		color: white;
+		
+	}
+	
+	.teste {
+		width: 40%;
+		heigth: 400px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		box-shadow: 0 10px 20px rgb(40,40,40);
+		
+	}
+	
+	.overlay {
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		opacity: 0;
+		transition: opacity 0.3s ease-in-out;
+		background: black;
+		cursor: pointer;
+		height: 100%;
+		
+	}
+	
+	.overlay p {
+		height: 512px;;
+	}
+	
+	.conteudo {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: white;
+		font-family: verdana;
+		text-align: center;
+		
+	}
+
+	
+	.dHText:hover .overlay {
+		opacity: 0.8;
+		
+		
+	}
+	
+	.susText:hover .overlay {
+		opacity: 0.8;
+		
+		
+	}
+	
+	p {
+		font-size: 20px;
+	}
+</style>
+</head>
+
+<body style="background-image: url('forest.jpg')">
+	<div class="nav">
+		
+		<div class="cabecalho">
+			<h2>2º SIS</h2>
+			<h2>Escola Secundária de Peniche</h2>
+			<h2>Links</h2>
+		</div>
+	</div>
+	<div class="corpo">
+		<h1> Direitos Humanos </h1>
+		<p class="texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+		Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+		when an unknown printer took a galley of type and scrambled it to make a type 
+		specimen book. It has survived not only five centuries, but also the leap into
+		electronic typesetting, remaining essentially unchanged. It was popularised in
+		the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, </p>
+	</div>
+
+	<table class="option">
+		<tr>
+			<th class="sus">Sustentabilidade</th>
+			<th class= "dH">Direitos Humanos</th>
+		</tr>
+		<tr>
+			<td class="susText">
+				<div class="overlay">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type
+					</p>
+				</div>
+			</td>
+			<td class="dHText">
+				<div class="overlay">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type
+					</p>
+				</div>
+			</td>
+		</tr>
+	</table>
+	
+	<!--<div class="teste">
+		<img src="espenicheLogo.png">
+		<div class= "overlay">
+			<div class="conteudo">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+				Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+				when an unknown printer took a galley of type and scrambled it to make a type</p>
+			</div>
+		</div>
+	</div>-->
+	
+	
+	
+	
+</body>
+
+
+
+
+
+
+
+
+
+</html>
